@@ -6,9 +6,9 @@ import java.util.List;
 public class App {
     public static void main(String[] args) {
         List<CompteBancaire> comptes = new ArrayList<>();
-        comptes.add(new CompteBancaire(12345, 19400, "Alice"));
-        comptes.add(new CompteCourant(67890, 2000, "Bob", 500));
-        comptes.add(new CompteEpargne(13579, 22600, "Charlie", 0.05));
+        comptes.add(new CompteBancaire(12345, 19400, "Ali"));
+        comptes.add(new CompteCourant(67890, 2000, "Ilham", 500));
+        comptes.add(new CompteEpargne(13579, 22600, "Mohamed", 0.05));
 
         // Suppression d'un compte
         comptes.remove(0);
